@@ -1,0 +1,175 @@
+html,body{ 
+	background-color: rgba(248,169,201,1); 
+	color: darkgreen;
+	 font-family: Helvetica;
+	  font-weight: bolder;
+     margin: 0;
+     scroll-behavior: smooth; 
+      text-align: center;
+	  
+	  
+}     
+.nav1,.nav2{
+	background-color:rgba(94,212,114,0.75);
+	overflow: hidden;
+	padding: 7px 0;
+	position: absolute;
+	width: 100%;
+} 
+
+ul{
+	float: left;
+	text-align:center;
+}
+li{
+	display:inline;
+	font-family: verdana;
+	font-size: 12px;
+	letter-spacing: 1px;
+	padding: 0 10px;
+}
+.nav1 a:hover{
+	color:gold;
+} 
+a{
+	text-decoration: none;
+}
+a[href^="https"]{
+	color: red;
+	font-style: italic;
+}
+a:hover{
+	color:white;
+}
+#hr{
+	color:gray;
+	margin-left: 0px;
+	width:25%;
+}
+.header{
+	    background: url(hrizantemapink.jpg) center fixed; 
+        background-size:100% 100%;
+        padding:100px 100px;
+        text-align:center;
+}
+.wrap{
+	background-color: rgba(112,218,123,1);
+	border-radius: 50%;
+	color: purple;
+	display:block;
+	margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 25px;
+	width: 40%;
+
+}
+.ponuda{
+	background: lightgreen;
+	display: inline-block;
+	padding: 5px;
+	width: 30%;
+
+}
+
+.ponuda-wrap{
+	text-align: center;
+}
+.foto{
+	border-radius: 10%;
+	height: 70%;
+	width: 70%;
+	
+}
+#foto1{
+	border-radius: 10%;
+	height:75%;
+	width: 75%;
+	
+}
+#foto2{
+	border-radius: 8%;
+	height: 50%;
+	width:50%;
+	
+}
+footer{
+	background-color: green;
+	color: black;
+	font-weight: bold;
+	letter-spacing: 1px;
+	padding: 5px 2px;
+	text-align: center;
+
+	
+}
+.sekcija {
+	background-color: lightgray;
+	border: 2px solid purple;
+	border-radius: 12px;
+	line-height: 20px;
+	padding: 3% 5% ;
+	padding: 20px;
+	text-align: justify;
+
+}
+.main{
+	margin-left: auto;
+	margin-right: auto;
+	padding: 3% 1%;
+	width: 85%;
+}
+.vrh{
+	background-color: lightgreen;
+	color: white;
+	float: right;
+	font-weight: 100;
+	margin-right: 20px;
+	padding: 10px 25px;
+	
+}
+#p1{
+      color: green;
+      font-weight: normal;
+}
+#p2{
+	color:green;
+	font-weight:bolder;
+}
+.red::first-line{
+	     font-size: 25px;
+	     font-style: italic;
+
+}
+.red2::first-line{
+	     font-size: 20px;
+	     font-style: italic;
+}
+@keyframes menja{
+	0%{color:green;}
+	15%{color:blue;}
+	35%{color:pink;}
+	55%{color:purple;}
+	70%{color:black;}
+}
+h2{
+	font-size: 30px;
+	font-style: bolder;
+	color:green;
+	animation-name: menja;
+	animation-duration: 4s;
+}
+@keyframes boja{
+	0%{color:green;}
+	15%{color: white;}
+	30%{color: yellow;}
+	50%{color: orange;}
+	75%{color:red;}
+}
+h3{
+	font-style: normal;
+	color: green;
+	animation-name: boja;
+	animation-duration: 5s;
+
+}
